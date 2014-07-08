@@ -27,6 +27,6 @@ class DollarTests: XCTestCase {
     }
 
     func testFirst() {
-        XCTAssertEqualObjects(first([1, 2, 3, 4])!, 1, "Return first element")
+        XCTAssertEqualObjects(first([1, 2, 3, 4, 5, 6, 7, 8, 9])!, 1, "Return first element")
     }
 }
